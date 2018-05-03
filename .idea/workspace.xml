@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a6cdb13-b699-4fb6-88c1-fb9bf8d5eebb" name="Default" comment="" />
+    <list default="true" id="7a6cdb13-b699-4fb6-88c1-fb9bf8d5eebb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/AnonymousConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Contents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Destination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Factories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/TestParcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Wrapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/interfaces/Games.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,20 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DotThis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/DotThis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="50">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -33,23 +39,120 @@
       <file leaf-file-name="DotNew.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/DotNew.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="50">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parcel3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel3.java">
+      <file leaf-file-name="Parcel8.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="375">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="class#Contents#0;class#Parcel3#0" />
-                <element signature="class#Destination#0;class#Parcel3#0" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="method#main#0;class#Parcel3#0" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parcel9.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel9.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnonymousConstructor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/AnonymousConstructor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              <folding>
+                <element signature="e#95#96#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contents.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Contents.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Destination.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Destination.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parcel10.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="method#destination#0;class#Parcel10#0" />
+                <element signature="class#168:205" />
+                <element signature="initializer##0;class#168:271" />
+                <element signature="method#main#0;class#Parcel10#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Factories.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Factories.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="class#Service#0" />
+                <element signature="class#ServiceFactory#0" />
+                <element signature="class#Implementation1#0" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#462#578#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="class#Implementation2#0" />
+                <element signature="e#851#976#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="class#Factories#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Games.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/interfaces/Games.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="class#Checkers#0" />
+                <element signature="e#398#494#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="class#Chess#0" />
+                <element signature="e#770#858#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="class#Games#0" />
+                <element signature="method#main#0;class#Games#0" />
               </folding>
             </state>
           </provider>
@@ -60,9 +163,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -72,6 +179,21 @@
         <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/DotThis.java" />
         <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel3.java" />
         <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/DotNew.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Destination.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Contents.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel4.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/TestParcel.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel5.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel6.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel7.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel8.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Wrapping.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel9.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/AnonymousConstructor.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel10.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/Factories.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Factories.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter10/interfaces/Games.java" />
       </list>
     </option>
   </component>
@@ -84,18 +206,19 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="5" />
-    <option name="width" value="1162" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-1" />
+    <option name="y" value="29" />
+    <option name="width" value="1072" />
+    <option name="height" value="1007" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,13 +233,34 @@
             </path>
             <path>
               <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter10" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,9 +280,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Parcel3">
-    <configuration name="DotNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter10.innerclasses.DotNew" />
+  <component name="RunManager" selected="Application.Games">
+    <configuration name="AnonymousConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter10.innerclasses.AnonymousConstructor" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +291,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DotThis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter10.innerclasses.DotThis" />
+    <configuration name="Factories" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter10.innerclasses.Factories" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -157,15 +301,28 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.Main" />
+    <configuration name="Games" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter10.interfaces.Games" />
       <module name="ThinkingInJava" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thinkingInJava.chapter10.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
-    <configuration name="Parcel3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter10.innerclasses.Parcel3" />
+    <configuration name="Parcel10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter10.innerclasses.Parcel10" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thinkingInJava.chapter10.innerclasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Parcel9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter10.innerclasses.Parcel9" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -190,16 +347,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.DotThis" />
-      <item itemvalue="Application.DotNew" />
-      <item itemvalue="Application.Parcel3" />
+      <item itemvalue="Application.Parcel9" />
+      <item itemvalue="Application.AnonymousConstructor" />
+      <item itemvalue="Application.Parcel10" />
+      <item itemvalue="Application.Factories" />
+      <item itemvalue="Application.Games" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Parcel3" />
-        <item itemvalue="Application.DotNew" />
-        <item itemvalue="Application.DotThis" />
+        <item itemvalue="Application.Games" />
+        <item itemvalue="Application.Factories" />
+        <item itemvalue="Application.Parcel10" />
+        <item itemvalue="Application.AnonymousConstructor" />
+        <item itemvalue="Application.Parcel9" />
       </list>
     </recent_temporary>
   </component>
@@ -214,44 +374,45 @@
       <option name="presentableId" value="Default" />
       <updated>1525224063102</updated>
       <workItem from="1525224064766" duration="4207000" />
+      <workItem from="1525309905560" duration="8710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4207000" />
+    <option name="totallyTimeSpent" value="12917000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-1" y="29" width="1072" height="1007" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32998747" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32998747" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32998747" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1640625" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23768939" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.15711252" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.1412556" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,14 +423,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/DotNew.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -280,24 +441,199 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/DotNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="625">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="class#Contents#0;class#Parcel3#0" />
-            <element signature="class#Destination#0;class#Parcel3#0" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="method#main#0;class#Parcel3#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/TestParcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Wrapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Parcel10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="method#destination#0;class#Parcel10#0" />
+            <element signature="class#168:205" />
+            <element signature="initializer##0;class#168:271" />
+            <element signature="method#main#0;class#Parcel10#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/AnonymousConstructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Contents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Destination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/DotNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/DotThis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/innerclasses/Factories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="class#Service#0" />
+            <element signature="class#ServiceFactory#0" />
+            <element signature="class#Implementation1#0" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#462#578#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="class#Implementation2#0" />
+            <element signature="e#851#976#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="class#Factories#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter10/interfaces/Games.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="class#Checkers#0" />
+            <element signature="e#398#494#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="class#Chess#0" />
+            <element signature="e#770#858#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="class#Games#0" />
+            <element signature="method#main#0;class#Games#0" />
+          </folding>
         </state>
       </provider>
     </entry>
