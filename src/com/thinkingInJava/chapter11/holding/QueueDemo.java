@@ -10,7 +10,7 @@ import java.util.Random;
 public class QueueDemo {
     public static void printQ(Queue queue){
         while(queue.peek()!=null){
-            System.out.println(queue.remove()+" ");
+            System.out.print(queue.remove()+" ");
         }
         System.out.println();
     }
@@ -27,5 +27,9 @@ public class QueueDemo {
             qc.offer(c);
         }
         System.out.println(qc);
+        qc.peek();//查询队头元素，队列为空时，返回null
+        qc.element();//队列为空时，抛出NoSuchElementException
+        qc.poll();//移除返回队头，队列为空时，返回null
+        qc.remove();//队列为空时，抛出NoSuchElementException
     }
 }
