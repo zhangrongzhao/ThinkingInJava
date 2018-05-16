@@ -16,13 +16,12 @@ public class GenericVarargs {
     }
     public static void main(String[] args){
         List<String> ls=makeList("A");
-        System.out.print(ls);
+        System.out.println(ls);
 
         ls=makeList("A","B","C");
-        System.out.print(ls);
+        System.out.println(ls);
 
         ls=makeList("ABCDEFHIJKLMNOPQRSTUVWXYZ".split(""));
         System.out.println(ls);
-
     }
 }

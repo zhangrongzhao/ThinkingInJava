@@ -14,5 +14,4 @@ public class Holder3<T> {
         //h3.set("Not an Automobile");
         //h3.set(1);
     }
-
 }
