@@ -13,7 +13,7 @@ class Gecko extends ComparablePet{
     }
 }
 
-class SelfBounded<T extends SelfBounded<T>>{ }
+//class SelfBounded<T extends SelfBounded<T>>{ }
 
 
 public class RestrictedComparablePets {
