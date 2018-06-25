@@ -5,6 +5,7 @@ class Individual{
     private final int id = counter++;
     private String name = "";
 
+    public Individual(){ }
     public Individual(String name){this.name=name;}
 
     public int getId(){
