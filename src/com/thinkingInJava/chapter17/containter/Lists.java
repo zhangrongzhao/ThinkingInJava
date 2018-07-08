@@ -2,9 +2,7 @@ package com.thinkingInJava.chapter17.containter;
 
 import com.thinkingInJava.util.Countries;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 public class Lists {
     private static boolean b;
@@ -43,10 +41,78 @@ public class Lists {
     public static void iterMotion(List<String> a){
         ListIterator<String> it=a.listIterator();
         b=it.hasNext();
-        b=it.hasPrevious();
         s=it.next();
         i=it.nextIndex();
+
+        b=it.hasPrevious();
         s=it.previous();
         i=it.previousIndex();
+    }
+    public static void iterManipulation(List<String> a){
+        ListIterator<String> it=a.listIterator();
+        it.add("47");
+        //Must move to an element after add();
+        it.next();
+        //Remove the element after the newly produced one:
+        it.remove();
+        //Must move to an element after remove()
+        it.next();
+        //Change the element after the deleted one :
+        it.set("47");
+    }
+    public static void testVisual(List<String> a){
+         System.out.println(a);
+         List<String> b=Countries.names(6);
+         System.out.println("b="+b);
+         a.addAll(b);
+         System.out.println("a="+a);
+         a.addAll(b);
+         System.out.println("a="+a);
+         //Insert,remove,and replace elements
+         //using a ListIterator:
+         ListIterator<String> x = a.listIterator(a.size()/2);
+         x.add("one");
+         System.out.println(a);
+         System.out.println(x.next());
+         x.remove();
+         System.out.println(x.next());
+         x.set("47");
+         System.out.println(a);
+         //Traverse the list backwards:
+         x = a.listIterator(a.size());
+         while(x.hasPrevious()){
+             System.out.println(x.previous()+" ");
+         }
+         System.out.println();
+         System.out.println("testVisual finished");
+    }
+    public static void testLinkedList(){
+        LinkedList<String> l1=new LinkedList<String>();
+        l1.addAll(Countries.names(25));
+        System.out.println(l1);
+        //Treat it like a stack,pushing
+        l1.addFirst("one");
+        l1.addFirst("two");
+        System.out.println(l1);
+        //Like "peeking" at the top of a stack
+        System.out.println(l1.getFirst());
+        //Like popping a stack:
+        System.out.println(l1.removeFirst());
+        System.out.println(l1.removeFirst());
+        //Treat it like a queue,pulling elements off the tail end;
+        System.out.println(l1.removeLast());
+        System.out.println(l1);
+    }
+    public static void main(String[] args){
+        //Make and fill a new list each time:
+        basicTest(new LinkedList<String>(Countries.names(6)));
+        basicTest(new ArrayList<String>(Countries.names(6)));
+        iterMotion(new LinkedList<String>(Countries.names(6)));
+        iterMotion(new ArrayList<String>(Countries.names(6)));
+        iterManipulation(new LinkedList<String>(Countries.names(6)));
+        iterManipulation(new ArrayList<String>(Countries.names(6)));
+        testVisual(new LinkedList<String>(Countries.names(6)));
+        testVisual(new LinkedList<String>(Countries.names(6)));
+        testLinkedList();
     }
 }
