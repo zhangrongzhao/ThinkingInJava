@@ -41,12 +41,12 @@ public class Lists {
     public static void iterMotion(List<String> a){
         ListIterator<String> it=a.listIterator();
         b=it.hasNext();
-        s=it.next();
         i=it.nextIndex();
+        s=it.next();
 
         b=it.hasPrevious();
-        s=it.previous();
         i=it.previousIndex();
+        s=it.previous();
     }
     public static void iterManipulation(List<String> a){
         ListIterator<String> it=a.listIterator();
@@ -74,8 +74,11 @@ public class Lists {
          x.add("one");
          System.out.println(a);
          System.out.println(x.next());
+         System.out.println(a);
          x.remove();
+         System.out.println(a);
          System.out.println(x.next());
+         System.out.println(a);
          x.set("47");
          System.out.println(a);
          //Traverse the list backwards:
@@ -112,7 +115,7 @@ public class Lists {
         iterManipulation(new LinkedList<String>(Countries.names(6)));
         iterManipulation(new ArrayList<String>(Countries.names(6)));
         testVisual(new LinkedList<String>(Countries.names(6)));
-        testVisual(new LinkedList<String>(Countries.names(6)));
+        testVisual(new ArrayList<String>(Countries.names(6)));
         testLinkedList();
     }
 }
