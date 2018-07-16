@@ -1,4 +1,4 @@
-package com.thinkingInJava.chapter17.containter;
+package com.thinkingInJava.chapter17.container;
 
 import com.thinkingInJava.util.Generator;
 import com.thinkingInJava.util.MapData;

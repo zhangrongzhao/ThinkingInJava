@@ -1,4 +1,4 @@
-package com.thinkingInJava.chapter17.containter;
+package com.thinkingInJava.chapter17.container;
 //Methods necessary to put your own type in s set.
 
 import java.util.HashSet;

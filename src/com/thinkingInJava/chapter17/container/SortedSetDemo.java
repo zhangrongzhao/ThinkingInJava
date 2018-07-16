@@ -1,4 +1,4 @@
-package com.thinkingInJava.chapter17.containter;
+package com.thinkingInJava.chapter17.container;
 
 import java.util.Collections;
 import java.util.Iterator;

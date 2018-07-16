@@ -1,4 +1,4 @@
-package com.thinkingInJava.chapter17.containter;
+package com.thinkingInJava.chapter17.container;
 
 import java.util.ArrayList;
 import java.util.Collections;
