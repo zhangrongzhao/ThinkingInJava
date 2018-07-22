@@ -1,9 +1,9 @@
 package com.thinkingInJava.chapter17.container;
 
+import com.thinkingInJava.util.CountingGenerator;
 import com.thinkingInJava.util.CountingIntegerList;
+import com.thinkingInJava.util.Generated;
 
-import javax.annotation.Generated;
-import java.time.format.TextStyle;
 import java.util.*;
 
 /**
@@ -32,22 +32,19 @@ public class ListPerformance {
         });
         tests.add(new Test<List<Integer>>("get"){
             int test(List<Integer> list,TestParam tp){
-                int loops=tp.loops;
-                int listSize=tp.size;
+                int loops=tp.loops*reps;
+                int listSize=list.size();
                 for(int i=0;i<loops;i++){
-                    list.clear();
-                    for(int j=0;j<listSize;j++){
-                        list.get(rand.nextInt(listSize));
-                    }
+                    list.get(rand.nextInt(listSize));
                 }
-                return loops*listSize;
+                return loops;
             }
         });
         tests.add(new Test<List<Integer>>("set"){
             int test(List<Integer> list,TestParam tp){
                 int loops=tp.loops*reps;
-                int listSize=tp.size;
-                for(int j=0;j<listSize;j++){
+                int listSize=list.size();
+                for(int j=0;j<loops;j++){
                     list.set(rand.nextInt(listSize),47);
                 }
                 return loops;
@@ -59,7 +56,7 @@ public class ListPerformance {
                 int half=list.size()/2;
                 ListIterator<Integer> it=list.listIterator(half);
                 for(int j=0;j<LOOPS;j++){
-                    list.add(47);
+                    it.add(47);
                 }
                 return LOOPS;
             }
@@ -75,7 +72,7 @@ public class ListPerformance {
         });
         tests.add(new Test<List<Integer>>("remove"){
             int test(List<Integer> list,TestParam tp){
-                int loops=tp.loops*reps;
+                int loops=tp.loops;
                 int size=tp.size;
                 for(int i=0;i<loops;i++){
                     list.clear();
@@ -168,12 +165,12 @@ public class ListPerformance {
             //this will be called before each test. it produces a non-resizeable array-backed list:
 
             @Override
-            List<Integer> initialize(int size){
+            public List<Integer> initialize(int size){
                 Integer[] ia= Generated.array(Integer.class,new CountingGenerator.Integer(),size);
                 return Arrays.asList(ia);
             }
         };
-        arrayTest.setHeadline("Arrayt as List");
+        arrayTest.setHeadline("Array as List");
         arrayTest.timedTest();
         Tester.defaultParams= TestParam.array(10,5000,100,5000,1000,1000,10000,200);
         if(args.length>0){
