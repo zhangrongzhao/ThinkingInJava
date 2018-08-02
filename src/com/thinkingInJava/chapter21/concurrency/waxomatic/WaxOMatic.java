@@ -17,7 +17,7 @@ class Car{
     }
     public synchronized void waitForWaxing()throws InterruptedException{
         while(waxOn==false){
-            wait();
+            wait();//线程挂起，锁被释放
         }
     }
     public synchronized void waitForBuffing()throws InterruptedException{
