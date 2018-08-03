@@ -102,3 +102,6 @@ public class WaxOMatic2 {
         exec.shutdownNow();
     }
 }
+
+//备注：线程使用锁进行协作：Lock.Condition
+//在Condition上await阻塞释放锁，signalAll发送信号，唤醒在锁上阻塞的线程。
