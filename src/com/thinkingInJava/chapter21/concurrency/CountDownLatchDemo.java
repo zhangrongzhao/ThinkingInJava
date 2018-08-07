@@ -2,6 +2,8 @@ package com.thinkingInJava.chapter21.concurrency;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 //Performs some portion of a task:
@@ -40,7 +42,7 @@ class WaitingTask implements Runnable{
     }
     public void run(){
         try{
-            latch.wait();
+            latch.await();
             System.out.println("Latch barrier for " + this);
         }catch (InterruptedException ex){
             System.out.println(this+" interrupted");
@@ -54,6 +56,16 @@ class WaitingTask implements Runnable{
 public class CountDownLatchDemo {
     static final int SIZE=100;
     public static void  main(String[] args)throws Exception{
-
+        ExecutorService exec = Executors.newCachedThreadPool();
+        //All must share a single CountDownLatch object:
+        CountDownLatch latch = new CountDownLatch(SIZE);
+        for(int i=0;i<10;i++){
+            exec.execute(new WaitingTask(latch));
+        }
+        for(int i=0;i<SIZE;i++){
+            exec.execute(new TaskPortion(latch));
+        }
+        System.out.println("Launched all tasks");
+        exec.shutdown();
     }
 }
