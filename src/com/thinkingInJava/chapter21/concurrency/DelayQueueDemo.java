@@ -15,8 +15,8 @@ class DelayedTask implements Runnable,Delayed{
     private final long trigger;
     protected static List<DelayedTask> sequence = new ArrayList<DelayedTask>();
     public DelayedTask(int delayInMilliseconds){
-        delta=delayInMilliseconds;
-        trigger=System.nanoTime()+NANOSECONDS.convert(delta,MILLISECONDS);
+        delta = delayInMilliseconds;
+        trigger = System.nanoTime()+NANOSECONDS.convert(delta,MILLISECONDS);
         sequence.add(this);
     }
     @Override
