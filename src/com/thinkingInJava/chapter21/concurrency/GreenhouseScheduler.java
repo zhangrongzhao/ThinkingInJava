@@ -110,7 +110,33 @@ public class GreenhouseScheduler {
             synchronized (GreenhouseScheduler.this){
                 //Pretend the interval is longer than it is:
                 lastTime.set(Calendar.MINUTE,lastTime.get(Calendar.MINUTE)+30);
+                //One in 5 chances of reversing the direction
+                if(rand.nextInt(5)==4){
+                    tempDirection=-tempDirection;
+                }
+                //Store previous value
+                lastTemp = lastTemp + tempDirection * (1.0f + rand.nextFloat());
+                if(rand.nextInt(5)==4){
+                    humidityDirection =- humidityDirection;
+                }
+                lastHumidity=lastHumidity+humidityDirection*rand.nextFloat();
+                //Calendar must be cloned,otherwise all DataPoints hold references to the same lastTime.
+                //For a basic object like Calendar,clone() is OK.
+                data.add(new DataPoint((Calendar)lastTime.clone(),lastTemp,lastHumidity));
             }
         }
+    }
+    public static void main(String[] args){
+        GreenhouseScheduler gh=new GreenhouseScheduler();
+        gh.schedule(gh.new Terminate(),5000);
+        //Former "Restart" class not necessary:
+        gh.repeat(gh.new Bell(),0,1000);
+        gh.repeat(gh.new ThermostatNight(),0,2000);
+        gh.repeat(gh.new LightOn(),0,200);
+        gh.repeat(gh.new LightOff(),0,400);
+        gh.repeat(gh.new WaterOn(),0,600);
+        gh.repeat(gh.new WaterOff(),0,800);
+        gh.repeat(gh.new ThermostatDay(),0,1400);
+        gh.repeat(gh.new CollectData(),500,500);
     }
 }
