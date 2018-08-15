@@ -2,11 +2,12 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/References.java" line="17" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Interrupting.java" line="78" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a6cdb13-b699-4fb6-88c1-fb9bf8d5eebb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Joining.java" afterDir="false" />
+    <list default="true" id="7a6cdb13-b699-4fb6-88c1-fb9bf8d5eebb" name="Default" comment="21.7.4 PriorityBlockingQueue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/restaurant2/RestaurantWithQueues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/restaurant2/RestaurantWithQueues.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,111 +31,143 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/test.java">
+      <file leaf-file-name="GreenhouseScheduler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/GreenhouseScheduler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#repeat#0;class#GreenhouseScheduler#0" />
+                <element signature="class#LightOn#0;class#GreenhouseScheduler#0" />
+                <element signature="class#LightOff#0;class#GreenhouseScheduler#0" />
+                <element signature="class#WaterOn#0;class#GreenhouseScheduler#0" />
+                <element signature="class#WaterOff#0;class#GreenhouseScheduler#0" />
+                <element signature="class#ThermostatNight#0;class#GreenhouseScheduler#0" />
+                <element signature="method#run#0;class#ThermostatNight#0;class#GreenhouseScheduler#0" />
+                <element signature="class#ThermostatDay#0;class#GreenhouseScheduler#0" />
+                <element signature="class#Bell#0;class#GreenhouseScheduler#0" />
+                <element signature="class#Terminate#0;class#GreenhouseScheduler#0" />
+                <element signature="class#DataPoint#0;class#GreenhouseScheduler#0" />
+                <element signature="method#DataPoint#0;class#DataPoint#0;class#GreenhouseScheduler#0" />
+                <element signature="method#toString#0;class#DataPoint#0;class#GreenhouseScheduler#0" />
+                <element signature="initializer##0;class#GreenhouseScheduler#0" />
+                <element signature="class#CollectData#0;class#GreenhouseScheduler#0" />
+                <element signature="method#run#0;class#CollectData#0;class#GreenhouseScheduler#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Pool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Pool#0;class#Pool#0" />
+                <element signature="method#checkOut#0;class#Pool#0" />
+                <element signature="method#checkIn#0;class#Pool#0" />
+                <element signature="method#getItem#0;class#Pool#0" />
+                <element signature="method#releaseItem#0;class#Pool#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Fat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding>
+                <element signature="method#Fat#0;class#Fat#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicThreads.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/BasicThreads.java">
+      <file leaf-file-name="SemaphoreDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SemaphoreDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="275">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#CheckoutTask#0" />
+                <element signature="class#SemaphoreDemo#0" />
+                <element signature="method#main#0;class#SemaphoreDemo#0" />
+                <element signature="e#1620#1660#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DaemonsDontRunFinally.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/DaemonsDontRunFinally.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SimpleThread.java">
+      <file leaf-file-name="ExchangerDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ExchangerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
               <folding>
-                <element signature="method#SimpleThread#0;class#SimpleThread#0" />
-                <element signature="method#&lt;unnamed&gt;#0;class#SimpleThread#0" />
-                <element signature="method#main#0;class#SimpleThread#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="class#ExchangerProducer#0" />
+                <element signature="method#ExchangerProducer#0;class#ExchangerProducer#0" />
+                <element signature="method#run#0;class#ExchangerProducer#0" />
+                <element signature="class#ExchangerConsumer#0" />
+                <element signature="class#ExchangerDemo#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelfManaged.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SelfManaged.java">
+      <file leaf-file-name="BankTellerSimulation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/BankTellerSimulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="900">
+              <caret line="168" column="1" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
               <folding>
-                <element signature="method#run#0;class#SelfManaged#0" />
-                <element signature="method#main#0;class#SelfManaged#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="class#Customer#0" />
+                <element signature="class#CustomerLine#0" />
+                <element signature="class#CustomerGenerator#0" />
+                <element signature="method#run#0;class#CustomerGenerator#0" />
+                <element signature="class#Teller#0" />
+                <element signature="method#run#0;class#Teller#0" />
+                <element signature="method#doSomethingElse#0;class#Teller#0" />
+                <element signature="method#serveCustomerLine#0;class#Teller#0" />
+                <element signature="method#compareTo#0;class#Teller#0" />
+                <element signature="method#TellerManager#0;class#TellerManager#0" />
+                <element signature="method#adjustTellerNumber#0;class#TellerManager#0" />
+                <element signature="method#reassignOneTeller#0;class#TellerManager#0" />
+                <element signature="method#run#0;class#TellerManager#0" />
+                <element signature="class#BankTellerSimulation#0" />
+                <element signature="method#main#0;class#BankTellerSimulation#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadVariations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ThreadVariations.java">
+      <file leaf-file-name="RestaurantWithQueues.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/restaurant2/RestaurantWithQueues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="532">
+              <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
               <folding>
-                <element signature="class#InnerThread1#0" />
-                <element signature="method#run#0;class#Inner#0;class#InnerThread1#0" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="class#InnerThread2#0" />
-                <element signature="method#run#0;class#996:1155" />
-                <element signature="class#InnerRunnable1#0" />
-                <element signature="class#Inner#0;class#InnerRunnable1#0" />
-                <element signature="class#InnerRunnable2#0" />
-                <element signature="method#InnerRunnable2#0;class#InnerRunnable2#0" />
-                <element signature="method#run#0;class#2491:2671" />
-                <element signature="class#ThreadMethod#0" />
-                <element signature="method#run#0;class#3362:3545" />
-                <element signature="e#3847#3848#0" expanded="true" />
-                <element signature="e#3902#3903#0" expanded="true" />
-                <element signature="class#ThreadVariations#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2269#2270#0" expanded="true" />
+                <element signature="e#2310#2311#0" expanded="true" />
+                <element signature="e#2619#2626#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Joining.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Joining.java">
+      <file leaf-file-name="IntGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/IntGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Daemons.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Daemons.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="175">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -162,57 +195,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/DequeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/AssociativeArray.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/Maps.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/SortedMapDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/LinkedHashMapDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/Prediction.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/SpringDetector.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/Groundhog.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/SpringDetector2.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/Groundhog2.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/SlowMap.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/MapEntry.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/SimpleHashMap.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/StringHashCode.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/CountedString.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter14/typeinfo/pets/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter14/typeinfo/pets/Individual.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/IndividualTest.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/util/Generated.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/util/CountingGenerator.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/Tester.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/ListPerformance.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/RandomBounds.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/SetPerformance.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/MapPerformance.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/Utilities.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/ReadOnly.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/Synchronization.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/FailFast.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/References.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/CanonicalMapping.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/MainThread.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/LiftOff.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/BasicThreads.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/MoreBasicThreads.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CachedThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/FixedThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SingleThreadExecutor.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CallableDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SleepingTask.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SimplePriorities.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SimpleDaemons.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/util/DaemonThreadFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/DaemonFromFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/util/DaemonThreadPoolExecutor.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Daemons.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/DaemonsDontRunFinally.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SimpleThread.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SelfManaged.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ThreadVariations.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Joining.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ExceptionThread.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/NativeExceptionHandling.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CaptureUncaughtException.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SettingdefaultHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/IntGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/EvenChecker.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/EvenGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SynchronizedEvenGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/MutexEvenGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/AttemptLocking.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Atomicity.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/AtomicityTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SerialNumberChecker.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SerialNumberGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/AtomicIntegerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/AtomicEvenGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CriticalSection.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ExplicitCriticalSection.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SyncObject.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ThreadLocalVariableHolder.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/OrnamentalGarden.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Interrupting.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CloseResource.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/NIOInterruption.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/MultiLock.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Interrupting2.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/InterruptingIdiom.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/waxomatic/WaxOMatic.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/NotifyVsNotifyAll.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/waxomatic2/WaxOMatic2.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/LiftOffRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/TestingBlockingQueues.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ToastOMatic.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/PipedIO.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Chopstick.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/DeadLockingDiningPhilosophers.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Philosopher.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/FixedDiningPhilosophers.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/HorseRace.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/DelayQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/PriorityBlockingQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/PriorityBlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/GreenhouseScheduler.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Pool.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Fat.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SemaphoreDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ExchangerDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/BankTellerSimulation.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/restaurant2/RestaurantWithQueues.java" />
       </list>
     </option>
   </component>
@@ -228,16 +261,16 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="2" />
     <option name="y" value="2" />
-    <option name="width" value="1086" />
-    <option name="height" value="1030" />
+    <option name="width" value="953" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,39 +306,28 @@
             </path>
             <path>
               <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter21" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurant2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter21" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurant2" type="462c0819:PsiDirectoryNode" />
+              <item name="RestaurantWithQueues.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,9 +351,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Joining">
-    <configuration name="DaemonsDontRunFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter21.concurrency.DaemonsDontRunFinally" />
+  <component name="RunManager" selected="Application.BankTellerSimulation">
+    <configuration name="BankTellerSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter21.concurrency.BankTellerSimulation" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -340,8 +362,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Joining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter21.concurrency.Joining" />
+    <configuration name="ExchangerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter21.concurrency.ExchangerDemo" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -350,8 +372,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SelfManaged" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter21.concurrency.SelfManaged" />
+    <configuration name="GreenhouseScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter21.concurrency.GreenhouseScheduler" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -360,8 +382,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SimpleThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter21.concurrency.SimpleThread" />
+    <configuration name="PriorityBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter21.concurrency.PriorityBlockingQueueDemo" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -370,8 +392,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ThreadVariations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter21.concurrency.ThreadVariations" />
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter21.concurrency.SemaphoreDemo" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -737,19 +759,19 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="Application.DaemonsDontRunFinally" />
-      <item itemvalue="Application.SimpleThread" />
-      <item itemvalue="Application.SelfManaged" />
-      <item itemvalue="Application.ThreadVariations" />
-      <item itemvalue="Application.Joining" />
+      <item itemvalue="Application.PriorityBlockingQueueDemo" />
+      <item itemvalue="Application.GreenhouseScheduler" />
+      <item itemvalue="Application.SemaphoreDemo" />
+      <item itemvalue="Application.ExchangerDemo" />
+      <item itemvalue="Application.BankTellerSimulation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Joining" />
-        <item itemvalue="Application.ThreadVariations" />
-        <item itemvalue="Application.SelfManaged" />
-        <item itemvalue="Application.SimpleThread" />
-        <item itemvalue="Application.DaemonsDontRunFinally" />
+        <item itemvalue="Application.BankTellerSimulation" />
+        <item itemvalue="Application.ExchangerDemo" />
+        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.GreenhouseScheduler" />
+        <item itemvalue="Application.PriorityBlockingQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -811,182 +833,27 @@
       <workItem from="1532230587679" duration="9745000" />
       <workItem from="1532263390108" duration="5766000" />
       <workItem from="1532308319616" duration="30917000" />
-      <workItem from="1532482221078" duration="15949000" />
-    </task>
-    <task id="LOCAL-00001" summary="通配符">
-      <created>1528974568770</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1528974568770</updated>
-    </task>
-    <task id="LOCAL-00002" summary="捕获转换">
-      <created>1528975708586</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1528975708586</updated>
-    </task>
-    <task id="LOCAL-00003" summary="15.11问题">
-      <created>1529032818504</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1529032818504</updated>
-    </task>
-    <task id="LOCAL-00004" summary="15.12.2">
-      <created>1529049061447</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1529049061447</updated>
-    </task>
-    <task id="LOCAL-00005" summary="15.18函数对象用作策略">
-      <created>1529462510191</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1529462510191</updated>
-    </task>
-    <task id="LOCAL-00006" summary="14.2Class对象">
-      <created>1529550883988</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1529550883989</updated>
-    </task>
-    <task id="LOCAL-00007" summary="14.2.1类字面常亮">
-      <created>1529638206857</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1529638206857</updated>
-    </task>
-    <task id="LOCAL-00008" summary="14.2Class对象">
-      <created>1529658042667</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1529658042667</updated>
-    </task>
-    <task id="LOCAL-00009" summary="14.3类型转换前先做检查">
-      <created>1529664767235</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1529664767235</updated>
-    </task>
-    <task id="LOCAL-00010" summary="14.3类型转换前先做检查&#10;14.3.1使用类字面量">
-      <created>1529897367889</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1529897367889</updated>
-    </task>
-    <task id="LOCAL-00011" summary="14.3.2动态的Instanceof&#10;14.3.3递归计数">
-      <created>1529977905816</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1529977905816</updated>
-    </task>
-    <task id="LOCAL-00012" summary="14.4注册工厂">
-      <created>1529980473788</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1529980473788</updated>
-    </task>
-    <task id="LOCAL-00013" summary="14.5instanceof与Class的等价性">
-      <created>1530066296421</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1530066296421</updated>
-    </task>
-    <task id="LOCAL-00014" summary="14.6反射：运行时类信息">
-      <created>1530068939560</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1530068939560</updated>
-    </task>
-    <task id="LOCAL-00015" summary="14.8空对象">
-      <created>1530502016331</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1530502016331</updated>
-    </task>
-    <task id="LOCAL-00016" summary="14.9接口与类型信息">
-      <created>1530586617976</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1530586617976</updated>
-    </task>
-    <task id="LOCAL-00017" summary="第17章 容器深入研究&#10;17.1 完整的容器分类法&#10;17.2填充容器">
-      <created>1530757356442</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1530757356442</updated>
-    </task>
-    <task id="LOCAL-00018" summary="17.2.3使用Abstract类">
-      <created>1530758110295</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1530758110295</updated>
-    </task>
-    <task id="LOCAL-00019" summary="17.2填充容器">
-      <created>1530846309489</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1530846309489</updated>
-    </task>
-    <task id="LOCAL-00020" summary="17.3Collection的功能方法">
-      <created>1530929588246</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1530929588246</updated>
-    </task>
-    <task id="LOCAL-00021" summary="17.4可选方法">
-      <created>1530955925216</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1530955925216</updated>
-    </task>
-    <task id="LOCAL-00022" summary="17.6Set和存储顺序">
-      <created>1531450910553</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1531450910553</updated>
-    </task>
-    <task id="LOCAL-00023" summary="17.6.1SortedSet">
-      <created>1531707983842</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1531707983843</updated>
-    </task>
-    <task id="LOCAL-00024" summary="17.7队列">
-      <created>1531709576614</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1531709576614</updated>
-    </task>
-    <task id="LOCAL-00025" summary="调整目录结构">
-      <created>1531710335469</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1531710335469</updated>
+      <workItem from="1532482221078" duration="20346000" />
+      <workItem from="1532567571265" duration="8831000" />
+      <workItem from="1532603458374" duration="34000" />
+      <workItem from="1532655245149" duration="11496000" />
+      <workItem from="1532912844810" duration="19638000" />
+      <workItem from="1533000766570" duration="5165000" />
+      <workItem from="1533006033156" duration="4777000" />
+      <workItem from="1533014057235" duration="647000" />
+      <workItem from="1533085144293" duration="5696000" />
+      <workItem from="1533118035741" duration="608000" />
+      <workItem from="1533171972315" duration="16355000" />
+      <workItem from="1533259946232" duration="27854000" />
+      <workItem from="1533605840916" duration="15603000" />
+      <workItem from="1533691873432" duration="2030000" />
+      <workItem from="1533694067973" duration="13251000" />
+      <workItem from="1533778162081" duration="9950000" />
+      <workItem from="1533795205058" duration="5073000" />
+      <workItem from="1533866612264" duration="2481000" />
+      <workItem from="1534123179097" duration="6916000" />
+      <workItem from="1534209402509" duration="3654000" />
+      <workItem from="1534299109199" duration="1673000" />
     </task>
     <task id="LOCAL-00026" summary="17.7.1优先级队列&#10;17.7.2双向队列">
       <created>1531794735920</created>
@@ -1114,11 +981,228 @@
       <option name="project" value="LOCAL" />
       <updated>1532502380669</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="21.2.11加入一个线程">
+      <created>1532504694688</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1532504694688</updated>
+    </task>
+    <task id="LOCAL-00045" summary="21.2.12创建有响应的用户界面">
+      <created>1532505565182</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1532505565182</updated>
+    </task>
+    <task id="LOCAL-00046" summary="21.2.14捕获异常">
+      <created>1532509439862</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1532509439862</updated>
+    </task>
+    <task id="LOCAL-00047" summary="21.3共享资源">
+      <created>1532603235775</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1532603235775</updated>
+    </task>
+    <task id="LOCAL-00048" summary="21.3.3原子性和易变性">
+      <created>1532663818870</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1532663818870</updated>
+    </task>
+    <task id="LOCAL-00049" summary="21.3.3原子类">
+      <created>1532685128698</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1532685128698</updated>
+    </task>
+    <task id="LOCAL-00050" summary="21.3.5临界区&#10;21.3.6在其他对象上同步">
+      <created>1532931823903</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1532931823904</updated>
+    </task>
+    <task id="LOCAL-00051" summary="21.3.7线程本地存储">
+      <created>1532934304131</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1532934304131</updated>
+    </task>
+    <task id="LOCAL-00052" summary="21.4.1装饰性花园">
+      <created>1532937663280</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1532937663280</updated>
+    </task>
+    <task id="LOCAL-00053" summary="21.4.3中断">
+      <created>1532941105463</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1532941105463</updated>
+    </task>
+    <task id="LOCAL-00054" summary="21.4.3中断&#10;21.4.4检查中断">
+      <created>1533013453205</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1533013453207</updated>
+    </task>
+    <task id="LOCAL-00055" summary="21.5.1wait()与notifyAll()">
+      <created>1533094194181</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1533094194182</updated>
+    </task>
+    <task id="LOCAL-00056" summary="21.5.2notify()与notifyAll()">
+      <created>1533178037635</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1533178037636</updated>
+    </task>
+    <task id="LOCAL-00057" summary="21.5.3生产者和消费者">
+      <created>1533206411152</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1533206411152</updated>
+    </task>
+    <task id="LOCAL-00058" summary="21.5.3生产者和消费者：使用显示的Lock和Condition对象">
+      <created>1533262837809</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1533262837809</updated>
+    </task>
+    <task id="LOCAL-00059" summary="21.5.3使用显示的Lock和Condition对象">
+      <created>1533263137494</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1533263137494</updated>
+    </task>
+    <task id="LOCAL-00060" summary="21.5.4生产者-消费者与队列">
+      <created>1533525852654</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1533525852655</updated>
+    </task>
+    <task id="LOCAL-00061" summary="21.5.5任务间使用管道进行输入输出">
+      <created>1533527293030</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1533527293030</updated>
+    </task>
+    <task id="LOCAL-00062" summary="21.6死锁">
+      <created>1533546342904</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1533546342904</updated>
+    </task>
+    <task id="LOCAL-00063" summary="21.7新类库中的构件">
+      <created>1533551774274</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1533551774274</updated>
+    </task>
+    <task id="LOCAL-00064" summary="21.7.1CountDownLatch">
+      <created>1533609806234</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1533609806235</updated>
+    </task>
+    <task id="LOCAL-00065" summary="21.7.2CyclicBarrier">
+      <created>1533634349266</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1533634349266</updated>
+    </task>
+    <task id="LOCAL-00066" summary="21.7.3 DelayQueue">
+      <created>1533637916924</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1533637916924</updated>
+    </task>
+    <task id="LOCAL-00067" summary="21.7.3 DelayQueue">
+      <created>1533694579984</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1533694579985</updated>
+    </task>
+    <task id="LOCAL-00068" summary="21.7.4 PriorityBlockingQueue">
+      <created>1533708056079</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1533708056079</updated>
+    </task>
+    <task id="LOCAL-00069" summary="21.7.5  使用ScheduledExecutor的温室控制器">
+      <created>1533724966103</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1533724966103</updated>
+    </task>
+    <task id="LOCAL-00070" summary="21.7.5 使用ScheduledExecutor的温室控制器">
+      <created>1533783353522</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1533783353522</updated>
+    </task>
+    <task id="LOCAL-00071" summary="21.7.6 Semaphore">
+      <created>1533797830782</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1533797830783</updated>
+    </task>
+    <task id="LOCAL-00072" summary="21.7.7 Exchanger">
+      <created>1533800514445</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1533800514445</updated>
+    </task>
+    <task id="LOCAL-00073" summary="21.8.2银行出纳员仿真">
+      <created>1534129818844</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1534129818846</updated>
+    </task>
+    <task id="LOCAL-00074" summary="21.8.2饭店仿真">
+      <created>1534213380159</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1534213380161</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286721000" />
+    <option name="totallyTimeSpent" value="452850000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1130,39 +1214,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="2" width="1086" height="1030" extended-state="0" />
+    <frame x="2" y="2" width="953" height="1034" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32705098" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32884097" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50051075" side_tool="true" weight="0.4490022" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49948928" visible="true" weight="0.33295965" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49948928" weight="0.14444445" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32705098" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32705098" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1491228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19932811" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49948928" weight="0.28026906" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49948928" weight="0.08948546" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32884097" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1190,32 +1274,32 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="17.2填充容器" />
-    <MESSAGE value="17.3Collection的功能方法" />
-    <MESSAGE value="17.4可选方法" />
-    <MESSAGE value="17.6Set和存储顺序" />
-    <MESSAGE value="17.6.1SortedSet" />
-    <MESSAGE value="17.7队列" />
-    <MESSAGE value="调整目录结构" />
-    <MESSAGE value="17.7.1优先级队列&#10;17.7.2双向队列" />
-    <MESSAGE value="17.8理解Map" />
-    <MESSAGE value="17.8.1性能" />
-    <MESSAGE value="17.8.2SortedMap" />
-    <MESSAGE value="17.8.3 LinkedHashMap" />
-    <MESSAGE value="17.9散列与散列码" />
-    <MESSAGE value="17.9.1理解hashCode()" />
-    <MESSAGE value="17.9.2为速度而散列" />
-    <MESSAGE value="17.10.3微基准测试的危险" />
-    <MESSAGE value="17.10.4对Set的选择" />
-    <MESSAGE value="17.10.4对Set的选择&#10;17.10.5对Map的选择" />
-    <MESSAGE value="17.11使用方法" />
-    <MESSAGE value="17.11.1List的排序和查询" />
-    <MESSAGE value="17.11.3Collection或者Map的同步控制" />
-    <MESSAGE value="17.12.1 WeakHashMap" />
-    <MESSAGE value="21.2.1定义任务&#10;21.2.2Thread类&#10;21.2.3使用Executor&#10;21.2.4从任务中返回值&#10;21.2.5休眠" />
-    <MESSAGE value="21.2.6优先级&#10;21.2.7让步&#10;21.2.8后台线程" />
-    <MESSAGE value="21.2.9线程变体(编码的变体)" />
-    <option name="LAST_COMMIT_MESSAGE" value="21.2.9线程变体(编码的变体)" />
+    <MESSAGE value="21.3.3原子类" />
+    <MESSAGE value="21.3.5临界区&#10;21.3.6在其他对象上同步" />
+    <MESSAGE value="21.3.7线程本地存储" />
+    <MESSAGE value="21.4.1装饰性花园" />
+    <MESSAGE value="21.4.3中断" />
+    <MESSAGE value="21.4.3中断&#10;21.4.4检查中断" />
+    <MESSAGE value="21.5.1wait()与notifyAll()" />
+    <MESSAGE value="21.5.2notify()与notifyAll()" />
+    <MESSAGE value="21.5.3生产者和消费者" />
+    <MESSAGE value="21.5.3生产者和消费者：使用显示的Lock和Condition对象" />
+    <MESSAGE value="21.5.3使用显示的Lock和Condition对象" />
+    <MESSAGE value="21.5.4生产者-消费者与队列" />
+    <MESSAGE value="21.5.5任务间使用管道进行输入输出" />
+    <MESSAGE value="21.6死锁" />
+    <MESSAGE value="21.7新类库中的构件" />
+    <MESSAGE value="21.7.1CountDownLatch" />
+    <MESSAGE value="21.7.2CyclicBarrier" />
+    <MESSAGE value="21.7.3 DelayQueue" />
+    <MESSAGE value="21.7.4 PriorityBlockingQueue" />
+    <MESSAGE value="21.7.5  使用ScheduledExecutor的温室控制器" />
+    <MESSAGE value="21.7.5 使用ScheduledExecutor的温室控制器" />
+    <MESSAGE value="21.7.6 Semaphore" />
+    <MESSAGE value="21.7.7 Exchanger" />
+    <MESSAGE value="21.8.2银行出纳员仿真" />
+    <MESSAGE value="21.8.2饭店仿真" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.8.2饭店仿真" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1292,8 +1376,20 @@
           <properties />
           <option name="timeStamp" value="125" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CloseResource.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/BankTellerSimulation.java</url>
+          <line>153</line>
+          <properties />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="143" />
+      <option name="time" value="154" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1302,6 +1398,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>q</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>queue</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>map</expression-string>
         <language-id>JAVA</language-id>
@@ -1319,11 +1425,6 @@
       </expression>
       <expression>
         <expression-string>toDoList</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>queue</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1350,443 +1451,439 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/ToDoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="class#ToDoItem#0;class#ToDoList#0" />
-            <element signature="method#ToDoItem#0;class#ToDoItem#0;class#ToDoList#0" />
-            <element signature="method#compareTo#0;class#ToDoItem#0;class#ToDoList#0" />
-            <element signature="method#main#0;class#ToDoList#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/annotation/Generated.java" />
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/AbstractList.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/util/Generated.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/util/CountingGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Object.java" />
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/sun/misc/Launcher.class" />
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/ClassLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/TestParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/RandomBounds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/ListPerformance.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/EvenChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="158" column="42" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#260#307#0" />
-            <element signature="initializer##0;class#ListPerformance#0" />
-            <element signature="class#663:1084" />
-            <element signature="class#1109:1442" />
-            <element signature="method#test#0;class#1109:1442" />
-            <element signature="class#1467:1803" />
-            <element signature="class#1828:2207" />
-            <element signature="class#2232:2532" />
-            <element signature="class#2557:3062" />
-            <element signature="class#3125:3559" />
-            <element signature="class#3585:4017" />
-            <element signature="class#4043:4538" />
-            <element signature="class#4564:5057" />
-            <element signature="class#ListTester#0;class#ListPerformance#0" />
-            <element signature="method#main#0;class#ListPerformance#0" />
-          </folding>
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/util/CountingIntegerList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/AtomicityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SerialNumberGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SerialNumberChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/Tester.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Atomicity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="68" column="25" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="25" />
-          <folding>
-            <element signature="method#Tester#0;class#Tester#0" />
-            <element signature="method#Tester#1;class#Tester#0" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="method#displayHeader#0;class#Tester#0" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/Utilities.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/AtomicIntegerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="725">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/MapPerformance.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/AtomicEvenGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/SetPerformance.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CriticalSection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="1575">
+          <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Collections.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ExplicitCriticalSection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="1012" column="47" selection-start-line="1012" selection-start-column="8" selection-end-line="1012" selection-end-column="47" />
+        <state relative-caret-position="225">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/ReadOnly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/ref/ReferenceQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/References.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#478#487#0" expanded="true" />
-            <element signature="e#1020#1044#0" expanded="true" />
-            <element signature="e#1352#1376#0" expanded="true" />
-            <element signature="e#1638#1647#0" expanded="true" />
-            <element signature="e#1720#1729#0" expanded="true" />
-            <element signature="e#1720#1747#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/FailFast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/Synchronization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter17/container/CanonicalMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#983#994#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/MainThread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SyncObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/MoreBasicThreads.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        <state relative-caret-position="538">
+          <caret line="232" column="29" selection-start-line="232" selection-start-column="17" selection-end-line="232" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CachedThreadPool.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/nio/channels/SocketChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="235">
+          <caret line="117" column="49" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/FixedThreadPool.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/NotifyVsNotifyAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/ExecutorService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/waxomatic/WaxOMatic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="234" column="7" lean-forward="true" selection-start-line="234" selection-start-column="7" selection-end-line="234" selection-end-column="7" />
+        <state relative-caret-position="-350">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SingleThreadExecutor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/InterruptingIdiom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Interrupting2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/MultiLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/NIOInterruption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CloseResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SleepingTask.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Interrupting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="class#SleepBlocked#0" />
+            <element signature="class#IOBlocked#0" />
+            <element signature="class#SynchronizedBlocked#0" />
+            <element signature="class#Interrupting#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SimplePriorities.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ThreadLocalVariableHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="178" column="17" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/LiftOff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SimpleDaemons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="method#run#0;class#SimpleDaemons#0" />
-            <element signature="method#main#0;class#SimpleDaemons#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/ThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CallableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/DaemonFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-662">
-          <caret line="229" column="67" selection-start-line="229" selection-start-column="54" selection-end-line="229" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/util/DaemonThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/DaemonFromFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/util/DaemonThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Daemons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/BasicThreads.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/DaemonsDontRunFinally.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/waxomatic2/WaxOMatic2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SimpleThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="method#SimpleThread#0;class#SimpleThread#0" />
-            <element signature="method#&lt;unnamed&gt;#0;class#SimpleThread#0" />
-            <element signature="method#main#0;class#SimpleThread#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SelfManaged.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="method#run#0;class#SelfManaged#0" />
-            <element signature="method#main#0;class#SelfManaged#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ThreadVariations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="class#InnerThread1#0" />
-            <element signature="method#run#0;class#Inner#0;class#InnerThread1#0" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="class#InnerThread2#0" />
-            <element signature="method#run#0;class#996:1155" />
-            <element signature="class#InnerRunnable1#0" />
-            <element signature="class#Inner#0;class#InnerRunnable1#0" />
-            <element signature="class#InnerRunnable2#0" />
-            <element signature="method#InnerRunnable2#0;class#InnerRunnable2#0" />
-            <element signature="method#run#0;class#2491:2671" />
-            <element signature="class#ThreadMethod#0" />
-            <element signature="method#run#0;class#3362:3545" />
-            <element signature="e#3847#3848#0" expanded="true" />
-            <element signature="e#3902#3903#0" expanded="true" />
-            <element signature="class#ThreadVariations#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="300" column="47" selection-start-line="300" selection-start-column="41" selection-end-line="300" selection-end-column="47" />
-          <folding>
-            <element signature="e#17619#17620#0" expanded="true" />
-            <element signature="e#17660#17661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Joining.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Restaurant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="229" column="39" lean-forward="true" selection-start-line="229" selection-start-column="39" selection-end-line="229" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/OrnamentalGarden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Chopstick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/PipedIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ToastOMatic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/TestingBlockingQueues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/LiftOffRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Philosopher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/FixedDiningPhilosophers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/DeadLockingDiningPhilosophers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="272" column="21" selection-start-line="272" selection-start-column="21" selection-end-line="272" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/Delayed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/PriorityBlockingQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="110" column="40" lean-forward="true" selection-start-line="110" selection-start-column="40" selection-end-line="110" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/DelayQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/HorseRace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2050">
+          <caret line="122" column="43" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/GreenhouseScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#repeat#0;class#GreenhouseScheduler#0" />
+            <element signature="class#LightOn#0;class#GreenhouseScheduler#0" />
+            <element signature="class#LightOff#0;class#GreenhouseScheduler#0" />
+            <element signature="class#WaterOn#0;class#GreenhouseScheduler#0" />
+            <element signature="class#WaterOff#0;class#GreenhouseScheduler#0" />
+            <element signature="class#ThermostatNight#0;class#GreenhouseScheduler#0" />
+            <element signature="method#run#0;class#ThermostatNight#0;class#GreenhouseScheduler#0" />
+            <element signature="class#ThermostatDay#0;class#GreenhouseScheduler#0" />
+            <element signature="class#Bell#0;class#GreenhouseScheduler#0" />
+            <element signature="class#Terminate#0;class#GreenhouseScheduler#0" />
+            <element signature="class#DataPoint#0;class#GreenhouseScheduler#0" />
+            <element signature="method#DataPoint#0;class#DataPoint#0;class#GreenhouseScheduler#0" />
+            <element signature="method#toString#0;class#DataPoint#0;class#GreenhouseScheduler#0" />
+            <element signature="initializer##0;class#GreenhouseScheduler#0" />
+            <element signature="class#CollectData#0;class#GreenhouseScheduler#0" />
+            <element signature="method#run#0;class#CollectData#0;class#GreenhouseScheduler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Pool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Pool#0;class#Pool#0" />
+            <element signature="method#checkOut#0;class#Pool#0" />
+            <element signature="method#checkIn#0;class#Pool#0" />
+            <element signature="method#getItem#0;class#Pool#0" />
+            <element signature="method#releaseItem#0;class#Pool#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/IntGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Fat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="method#Fat#0;class#Fat#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#CheckoutTask#0" />
+            <element signature="class#SemaphoreDemo#0" />
+            <element signature="method#main#0;class#SemaphoreDemo#0" />
+            <element signature="e#1620#1660#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ExchangerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ExchangerProducer#0" />
+            <element signature="method#ExchangerProducer#0;class#ExchangerProducer#0" />
+            <element signature="method#run#0;class#ExchangerProducer#0" />
+            <element signature="class#ExchangerConsumer#0" />
+            <element signature="class#ExchangerDemo#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/BankTellerSimulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="168" column="1" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Customer#0" />
+            <element signature="class#CustomerLine#0" />
+            <element signature="class#CustomerGenerator#0" />
+            <element signature="method#run#0;class#CustomerGenerator#0" />
+            <element signature="class#Teller#0" />
+            <element signature="method#run#0;class#Teller#0" />
+            <element signature="method#doSomethingElse#0;class#Teller#0" />
+            <element signature="method#serveCustomerLine#0;class#Teller#0" />
+            <element signature="method#compareTo#0;class#Teller#0" />
+            <element signature="method#TellerManager#0;class#TellerManager#0" />
+            <element signature="method#adjustTellerNumber#0;class#TellerManager#0" />
+            <element signature="method#reassignOneTeller#0;class#TellerManager#0" />
+            <element signature="method#run#0;class#TellerManager#0" />
+            <element signature="class#BankTellerSimulation#0" />
+            <element signature="method#main#0;class#BankTellerSimulation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/restaurant2/RestaurantWithQueues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2310#2311#0" expanded="true" />
+            <element signature="e#2619#2626#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,5 +1,9 @@
 package com.thinkingInJava.chapter21.concurrency.restaurant2;
 
+import com.thinkingInJava.chapter21.concurrency.Restaurant;
+
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.SynchronousQueue;
 
 //This is given to the waiter,who gives it to the chef:
@@ -64,6 +68,22 @@ class Customer implements Runnable{
     }
     public String toString(){
         return "Customer "+id+" ";
+    }
+}
+
+class WaitPerson implements Runnable{
+    private static int counter=0;
+    private final int id=counter++;
+    private final Restaurant restaurant;
+    BlockingQueue<Plate> filledOrders = new LinkedBlockingQueue<Plate>();
+    public WaitPerson(Restaurant rest){this.restaurant=rest;}
+    public void placeOrder(Customer cust,Food food){
+        try{
+            //Shouldn't actually block because this is a linkedBlockQueue with no size limit:
+            restaurant.orders.put(new Order);
+        }catch(InterruptedException e){
+            System.out.println(this + " placeOrder interrupted");
+        }
     }
 }
 
