@@ -4,7 +4,13 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.*;
 
-class Food{ }
+class Food{
+    private static int counter=0;
+    private final int id=counter++;
+    public String toString(){
+        return " Food: " + id;
+    }
+}
 
 //This is given to the waiter,who gives it to the chef:
 class Order{//(A data-transfer object)
