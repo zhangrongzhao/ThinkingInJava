@@ -29,7 +29,7 @@ class ChassisBuilder implements Runnable{//底盘
     public void run(){
         try{
             while(!Thread.interrupted()){
-                TimeUnit.MILLISECONDS.sleep(500);
+                //TimeUnit.MILLISECONDS.sleep(500);
                 //Make chassis
                 Car c=new Car(counter++);
                 System.out.println("ChassisBuilder created "+c);
@@ -137,24 +137,30 @@ abstract  class Robot implements Runnable{
 class EngineRobot extends Robot{
     public EngineRobot(RobotPool pool){super(pool);}
     protected void performService(){
-        System.out.println(this + " installing engine");
-        assembler.car().addEngine();
+        //if(assembler.car()!=null) {
+            System.out.println(this + " installing engine");
+            assembler.car().addEngine();
+        //}
     }
 }
 
 class DriveTrainRobot extends Robot{
     public DriveTrainRobot(RobotPool pool){super(pool);}
     protected void performService(){
-        System.out.println(this + " installing driveTrain");
-        assembler.car().addDriveTrain();
+        //if(assembler.car()!=null) {
+            System.out.println(this + " installing driveTrain");
+            assembler.car().addDriveTrain();
+        //}
     }
 }
 
 class WheelRobot extends Robot{
     public WheelRobot(RobotPool pool){super(pool);}
     protected void performService(){
-        System.out.println(this + " installing Wheels");
-        assembler.car().addWheels();
+        //if(assembler.car()!=null){
+            System.out.println(this + " installing Wheels");
+            assembler.car().addWheels();
+        //}
     }
 }
 
