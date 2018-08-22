@@ -29,7 +29,7 @@ class ChassisBuilder implements Runnable{//底盘
     public void run(){
         try{
             while(!Thread.interrupted()){
-                //TimeUnit.MILLISECONDS.sleep(500);
+                TimeUnit.MILLISECONDS.sleep(500);
                 //Make chassis
                 Car c=new Car(counter++);
                 System.out.println("ChassisBuilder created "+c);
@@ -102,13 +102,14 @@ abstract  class Robot implements Runnable{
     }
     private boolean engage=false;//是否被聘用
     public synchronized void engage(){
-        this.engage=false;
+        this.engage=true;
         notifyAll();
     }
     //The part of run() that's different for each robot:
     abstract protected  void performService();
     public void run(){
         try{
+            powerDown();//Wait until needed.
             while(!Thread.interrupted()){
                 performService();
                 assembler.barrier().await();//Synchronize
