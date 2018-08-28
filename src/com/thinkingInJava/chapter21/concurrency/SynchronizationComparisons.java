@@ -97,7 +97,7 @@ class LockTest extends Accumulator{
     {id="Lock";}
     private Lock lock=new ReentrantLock();
     public void accumulate(){
-        lock.lock();;
+        lock.lock();
         try{
             value+=preLoaded[index++];
             if(index>=SIZE){index=0;}
@@ -120,12 +120,12 @@ class AtomicTest extends Accumulator{
     private AtomicLong value=new AtomicLong(0);
     public void accumulate(){
         //Oops!Relying on more than one Atomic at a time does't work.But it still gives us a performance indicator:
-        int i=index.getAndIncrement();
-        if(i<SIZE){
-            value.getAndAdd(preLoaded[i]);
-        }
+        int i = index.getAndIncrement();
         if(++i>=SIZE){
             index.set(0);
+            value.getAndAdd(preLoaded[0]);
+        }else{
+            value.getAndAdd(preLoaded[i]);
         }
     }
     public long read(){
