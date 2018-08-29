@@ -50,19 +50,19 @@ public abstract class Tester<C> {
 
     abstract class TestTask implements Runnable{
         abstract void test();
-        abstract void putRersults();
+        abstract void putResults();
         long duration;
         public void run(){
             long startTime=System.nanoTime();
             test();
             duration=System.nanoTime()-startTime;
             synchronized (Tester.this){
-                putRersults();
+                putResults();
             }
             endLatch.countDown();
         }
     }
-    public static void main(String[] args){
+    public static void initMain(String[] args){
         if(args.length>0){
             testReps=new Integer(args[0]);
         }
