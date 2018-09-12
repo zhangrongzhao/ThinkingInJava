@@ -6,9 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a6cdb13-b699-4fb6-88c1-fb9bf8d5eebb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/FormattedMemoryInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/MemoryInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/TestEOF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/util/BinaryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkingInJava/util/TextFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,23 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MemoryInput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/MemoryInput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="60" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FormattedMemoryInput.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/FormattedMemoryInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +44,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestEOF.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestEOF.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/TestEOF.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicFileOutput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/BasicFileOutput.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoringAndRecoveringData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/StoringAndRecoveringData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="41" selection-start-line="13" selection-start-column="6" selection-end-line="17" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsingRandomAccessFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/UsingRandomAccessFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/util/TextFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#read#0;class#TextFile#0" />
+                <element signature="method#write#0;class#TextFile#0" />
+                <element signature="method#TextFile#0;class#TextFile#0" />
+                <element signature="method#write#1;class#TextFile#0" />
+                <element signature="method#main#0;class#TextFile#0" />
+                <element signature="e#2429#2437#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryFile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/util/BinaryFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#read#0;class#BinaryFile#0" />
+                <element signature="method#read#1;class#BinaryFile#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileOutputShortcut.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/FileOutputShortcut.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,12 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Interrupting.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CloseResource.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/NIOInterruption.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/MultiLock.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Interrupting2.java" />
-        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/InterruptingIdiom.java" />
         <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/waxomatic/WaxOMatic.java" />
         <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/NotifyVsNotifyAll.java" />
         <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Restaurant.java" />
@@ -143,6 +198,12 @@
         <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/MemoryInput.java" />
         <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/FormattedMemoryInput.java" />
         <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/TestEOF.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/BasicFileOutput.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/FileOutputShortcut.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/StoringAndRecoveringData.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/UsingRandomAccessFile.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/util/TextFile.java" />
+        <option value="$PROJECT_DIR$/src/com/thinkingInJava/util/BinaryFile.java" />
       </list>
     </option>
   </component>
@@ -156,9 +217,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="861" />
+    <option name="x" value="601" />
     <option name="y" value="1" />
-    <option name="width" value="1059" />
+    <option name="width" value="1319" />
     <option name="height" value="1035" />
   </component>
   <component name="ProjectView">
@@ -189,15 +250,7 @@
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter18" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter18" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,6 +270,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\My.Demos\ThinkingInJava" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -229,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FormattedMemoryInput">
+  <component name="RunManager" selected="Application.TextFile">
     <configuration name="BufferedInputFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter18.io.BufferedInputFile" />
       <module name="ThinkingInJava" />
@@ -240,8 +298,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DirList3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter18.io.DirList3" />
+    <configuration name="FormattedMemoryInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter18.io.FormattedMemoryInput" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -250,8 +308,18 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Directory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.util.Directory" />
+    <configuration name="StoringAndRecoveringData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter18.io.StoringAndRecoveringData" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thinkingInJava.chapter18.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.util.TextFile" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -260,18 +328,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DirectoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter18.io.DirectoryDemo" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thinkingInJava.chapter18.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FormattedMemoryInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter18.io.FormattedMemoryInput" />
+    <configuration name="UsingRandomAccessFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingInJava.chapter18.io.UsingRandomAccessFile" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -637,19 +695,19 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="Application.DirList3" />
-      <item itemvalue="Application.Directory" />
-      <item itemvalue="Application.DirectoryDemo" />
       <item itemvalue="Application.BufferedInputFile" />
       <item itemvalue="Application.FormattedMemoryInput" />
+      <item itemvalue="Application.StoringAndRecoveringData" />
+      <item itemvalue="Application.UsingRandomAccessFile" />
+      <item itemvalue="Application.TextFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextFile" />
+        <item itemvalue="Application.UsingRandomAccessFile" />
+        <item itemvalue="Application.StoringAndRecoveringData" />
         <item itemvalue="Application.FormattedMemoryInput" />
         <item itemvalue="Application.BufferedInputFile" />
-        <item itemvalue="Application.DirectoryDemo" />
-        <item itemvalue="Application.Directory" />
-        <item itemvalue="Application.DirList3" />
       </list>
     </recent_temporary>
   </component>
@@ -746,35 +804,9 @@
       <workItem from="1536055781540" duration="1992000" />
       <workItem from="1536109398432" duration="3872000" />
       <workItem from="1536283142902" duration="1798000" />
-      <workItem from="1536543281517" duration="3879000" />
-    </task>
-    <task id="LOCAL-00041" summary="21.2.6优先级&#10;21.2.7让步&#10;21.2.8后台线程">
-      <created>1532489158271</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1532489158271</updated>
-    </task>
-    <task id="LOCAL-00042" summary="21.2.9线程变体(编码的变体)">
-      <created>1532491077807</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1532491077807</updated>
-    </task>
-    <task id="LOCAL-00043" summary="21.2.9线程变体(编码的变体)">
-      <created>1532502380669</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1532502380669</updated>
-    </task>
-    <task id="LOCAL-00044" summary="21.2.11加入一个线程">
-      <created>1532504694688</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1532504694688</updated>
+      <workItem from="1536543281517" duration="4926000" />
+      <workItem from="1536629484626" duration="4170000" />
+      <workItem from="1536715789510" duration="3048000" />
     </task>
     <task id="LOCAL-00045" summary="21.2.12创建有响应的用户界面">
       <created>1532505565182</created>
@@ -1091,11 +1123,39 @@
       <option name="project" value="LOCAL" />
       <updated>1536545813491</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="18.6.3格式化的内存输入">
+      <created>1536548074260</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1536548074260</updated>
+    </task>
+    <task id="LOCAL-00091" summary="18.6.4基本的文件输出/文本文件输出的快捷方式">
+      <created>1536631900420</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1536631900421</updated>
+    </task>
+    <task id="LOCAL-00092" summary="18.6.5存储和恢复数据">
+      <created>1536632570146</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1536632570146</updated>
+    </task>
+    <task id="LOCAL-00093" summary="18.6.6读写随机访问文件">
+      <created>1536633221943</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1536633221943</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="523808000" />
+    <option name="totallyTimeSpent" value="532073000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1107,7 +1167,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="861" y="1" width="1059" height="1035" extended-state="0" />
+    <frame x="601" y="1" width="1319" height="1035" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1119,12 +1179,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50051075" side_tool="true" weight="0.4490022" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49948928" visible="true" weight="0.3400223" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49948928" visible="true" weight="0.1884058" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32705098" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32705098" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2102102" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17156473" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1134,12 +1194,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.134594" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.134594" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1167,10 +1227,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="21.5.3使用显示的Lock和Condition对象" />
-    <MESSAGE value="21.5.4生产者-消费者与队列" />
-    <MESSAGE value="21.5.5任务间使用管道进行输入输出" />
-    <MESSAGE value="21.6死锁" />
     <MESSAGE value="21.7新类库中的构件" />
     <MESSAGE value="21.7.1CountDownLatch" />
     <MESSAGE value="21.7.2CyclicBarrier" />
@@ -1192,7 +1248,11 @@
     <MESSAGE value="18.1.2" />
     <MESSAGE value="18.1.3目录的检查及创建" />
     <MESSAGE value="18.6.1缓冲输入文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="18.6.1缓冲输入文件" />
+    <MESSAGE value="18.6.3格式化的内存输入" />
+    <MESSAGE value="18.6.4基本的文件输出/文本文件输出的快捷方式" />
+    <MESSAGE value="18.6.5存储和恢复数据" />
+    <MESSAGE value="18.6.6读写随机访问文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="18.6.6读写随机访问文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1344,76 +1404,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="229" column="39" lean-forward="true" selection-start-line="229" selection-start-column="39" selection-end-line="229" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/OrnamentalGarden.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Chopstick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/PipedIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/ToastOMatic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/TestingBlockingQueues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/LiftOffRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/Philosopher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/DeadLockingDiningPhilosophers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter21/concurrency/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/CyclicBarrier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -1633,9 +1623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1653,9 +1640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
           <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1673,10 +1657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#pformat#0;class#PPrint#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1684,13 +1664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
           <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#local#0;class#Directory#0" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="method#recurseDirs#0;class#Directory#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1698,10 +1671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#DirList3#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1709,9 +1678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1734,7 +1700,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/MemoryInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="150">
           <caret line="7" column="60" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1744,8 +1710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/FormattedMemoryInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1754,10 +1720,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/TestEOF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="250">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/FileOutputShortcut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/BasicFileOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/StoringAndRecoveringData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="41" selection-start-line="13" selection-start-column="6" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/chapter18/io/UsingRandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/test2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/util/TextFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#read#0;class#TextFile#0" />
+            <element signature="method#write#0;class#TextFile#0" />
+            <element signature="method#TextFile#0;class#TextFile#0" />
+            <element signature="method#write#1;class#TextFile#0" />
+            <element signature="method#main#0;class#TextFile#0" />
+            <element signature="e#2429#2437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thinkingInJava/util/BinaryFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#read#0;class#BinaryFile#0" />
+            <element signature="method#read#1;class#BinaryFile#0" />
           </folding>
         </state>
       </provider>
