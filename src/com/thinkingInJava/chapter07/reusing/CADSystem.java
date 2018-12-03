@@ -42,7 +42,6 @@ class Line extends Shape{
     }
 }
 
-
 public class CADSystem extends Shape {
     private Circle c;
     private Triangle t;
