@@ -9,7 +9,7 @@ class Gum{
 }
 
 class Cookie{
-    static { System.out.println("Loading Cookie"); }
+    static { System.out.println("Loading Dinner"); }
 }
 
 public class SweetShop {
